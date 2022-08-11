@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/css/featuredproducts.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/html/index.html" class="logo">San Benedetto<span>.</span></a>
+
+      <form action="">
+        <input type="search" id="search-bar" />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="theme-toggler" class="fas fa-moon"></div>
+        <div id="cart-products" class="fas fa-shopping-cart"></div>
+        <a href="" class="fas fa-user"></a>
+      </div>
+    </header>
+
+    <!-- header ends -->
+
+    <!-- nav bar -->
+    <nav class="navbar">
+      <div class="user">
+        <img src="/img/images/user-img.png" alt="" />
+        <h3>Trần Tiến Huy</h3>
+        <a href="user.html" class="btn">Đăng Xuất</a>
+      </div>
+
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#deal">deal</a>
+        <a href="#review">review</a>
+      </div>
+
+      <div id="close" class="fas fa-times"></div>
+    </nav>
+
+
+    <div class="cart">
+      <h2 class="cart-title">Your Cart</h2>
+      <div class="cart-content">
+          <div class="cart-box">
+              <img src="/img/images/product8.jpg" alt="" class="cart-img"/>
+              <div class="detail-box" >
+                  <div class="cart-product-title">Earbuds</div>
+                  <div class="cart-price">$25</div>
+                  <input type="number" value="1" class="cart-quantily">
+              </div>
+              <!-- Remove cart -->
+              <i class="ti-trash cart-remove"></i>
+          </div>
+      </div> 
+      <!-- Total -->
+      <div class="total">
+          <div class="total-title">total</div>
+              <div class="total-price">$0</div>
+      </div>
+      <button type="button" class="btn-buy">Buy now</button>
+      <!-- Cart close-->
+      <div id="close1" class="fas fa-times"></div>
+  </div>
+
+
+
+    <div class="account">
+      <div class="account-1">
+        <h2>featured products</h2>
+      </div>
+      <div></div>
+    </div>
+
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="/img/images/f-1-1.png" width="300px" id = "ProductImg">
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img src="/img/images/f-1-1.png" style="border:1px solid black;"  width="100px" class="samll-img">
+            </div>
+            <div class="small-img-col">
+              <img src="/img/images/f-1-2.png" style="border:1px solid black;" width="100px" class="samll-img">
+            </div>
+            <div class="small-img-col">
+              <img src="/img/images/f-1-3.png" style="border:1px solid black;" width="100px" class="samll-img">
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <p>Home / T-Shirts </p>
+          <h1> T-Shirts by Enjoy Dude </h1>
+          <h4>$29.99</h4>
+          <select>
+            <option> Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>LARGE</option>
+            <option>MEDUIM</option>
+            <option>SMALL</option>
+          </select>
+          <input type="number" value="1">
+          <a href="" class="btn1">Add to cart</a>
+          <h3 style="font-size: 30px;" >Product Details <i class="fa fa-indent"></i></h3>
+          <br>
+          <p>Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit.
+            Tempora quasi nesciunt,
+            error fuga facilis autem rerum cumque animi rem natus.
+          </p> 
+        </div>
+      </div>
+    </div>
+
+    
+    <section class="footer">
+
+      <div class="footer-container">
+      
+          <div class="box-container">
+      
+              <div class="box">
+                  <h3>quick links</h3>
+                  <a href="#home">home</a>
+                  <a href="#products">products</a>
+                  <a href="#featured">featured</a>
+                  <a href="#deal">deal</a>
+                  <a href="#review">review</a>
+              </div>
+      
+              <div class="box">
+                  <h3>extra links</h3>
+                  <a href="#">my account</a>
+                  <a href="#">my favorite</a>
+                  <a href="#">my order</a>
+                  <a href="#">my cart</a>
+              </div>
+      
+              <div class="box">
+                  <h3>donwload links</h3>
+                  <a href="#">windows store</a>
+                  <a href="#">app store</a>
+                  <a href="#">google store</a>
+              </div>
+      
+              <div class="box">
+                  <h3>contact us</h3>
+                  <a href="#">+123-456-7890</a>
+                  <a href="#">example@gmail.com</a>
+                  <a href="#">mumbai, india - 400104</a>
+                  <img src="/img/images/payment.png" alt="">
+              </div>
+      
+          </div>
+      
+          <div class="credit"> created by <span> mr. web designer </span> | all rights reserved </div>
+      
+      </div>
+      
+      </section>
+  
+      <div class="container" style="background-color: grey; margin-bottom: 50px;">
+          <div class="row">
+             <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="khoi"></div>
+             </div>
+             <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="khoi"></div>
+             </div>
+          </div>
+       </div>
+      
+  
+
+    <script src="/js/Products.js"></script>
+  </body>
+</html>
